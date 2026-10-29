@@ -1,0 +1,38 @@
+# Secrets and local overrides
+.env
+.env.local
+.env.*.local
+
+# Speaker-only material — kept per-event too, belt-and-braces at the root.
+NOTES.md
+**/NOTES.md
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Node (future events may need it)
+node_modules/
+.pnpm-store/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Playwright
+.playwright/
+playwright-report/
+test-results/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,32 @@
+# Speaker-only material. Keep this out of the public repo.
+NOTES.md
+
+# Local secrets.
+.env
+.env.local
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Playwright
+.playwright/
+playwright-report/
+test-results/
+
+# CUA session-replay traces (viewable with `playwright show-trace`)
+traces/
+
+# IDE
+.idea/
+.vscode/
